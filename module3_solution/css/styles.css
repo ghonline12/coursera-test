@@ -1,0 +1,133 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-size: 16px;
+    color: #000000;
+    font-family: 'Oxygen', sans-serif;
+}
+/**header**/
+#header-nav{
+	background-color: grey;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand{
+	padding: 25px;
+}
+h1 .navbar-brand{
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	color: #000000;
+	font-size: 2em;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+#header-nav a h1{
+	color: black;
+	font-size: 2em;
+	font-family: cursive;
+	padding-bottom: 20px;
+}
+
+.navbar-default .navbar-toggle, .navbar-default .icon-bar{
+	border: 1px solid black;
+}
+
+.navbar-default .navbar-nav > li > a{
+	color: black;
+	font-size: 1.5em;
+}
+
+#nav-list a{
+	text-align: center;
+}
+.aligncenter{
+	text-align: center;
+}
+
+.main-container{
+			width: 100%;
+		}
+		.box1{
+			background-color: grey;
+			margin-right: 5px;
+			margin-left: 5px;
+			border: 2px solid black;
+            margin-right: 15px;
+            margin-left: 15px;
+            margin-bottom: 30px;
+			}
+		.title1{
+			background-color: none;
+            font-size: 100%;
+	        float: center;
+	        padding: 5px 50px 5px 50px;
+            position: top-right;
+	        margin-top: 0px;
+	        margin-right: 0px;
+	        text-align: center;
+	    }
+	   p {
+          font-size: 100%;
+          padding: 5px;
+          margin-top: 40px;
+          margin-left: 20px;
+          margin-right: 20px;
+          margin-bottom: 5px;
+	   }
+  		.box2{
+			background-color: grey;
+			margin-right: 5px;
+			margin-left: 5px;
+			border: 2px solid black;
+            margin-right: 15px;
+            margin-left: 15px;
+            margin-bottom: 30px;
+			}
+		.title2{
+			background-color: none;
+            font-size: 100%;
+	        float: center;
+	        padding: 5px 50px 5px 50px;
+            position: top-right;
+	        margin-top: 0px;
+	        margin-right: 0px;
+	        text-align: center;
+	    }
+	    .box3{
+			background-color: grey;
+			margin-right: 5px;
+			margin-left: 5px;
+			border: 2px solid black;
+            margin-right: 15px;
+            margin-left: 15px;
+            margin-bottom: 30px;
+			}
+		.title3{
+			background-color: none;
+            font-size: 100%;
+	        float: center;
+	        padding: 5px 50px 5px 50px;
+            position: top-right;
+	        margin-top: 0px;
+	        margin-right: 0px;
+	        text-align: center;
+	    }
+	    /******large devices*****/
+	    @media(min-width: 992px) {
+	    	.col-lg4, .col-md6, .col-md12{
+	    		float: left;
+	    		width: 33.33%;
+	    	}
+	    }
+	    @media(min-width: 768px) and (max-width: 991px){
+	    	.col-lg4, .col-md6 {
+	    		float: left;
+	    		width: 50%;
+	    	}
+	    	.col-md12 {
+	    		width: 100%;
+	    	}
+	    }
